@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'employee',
     'student',
+    'book',
 ]
 
 MIDDLEWARE = [
@@ -134,5 +135,5 @@ REST_FRAMEWORK = {
         'rest_framework.parsers.FormParser',
         'rest_framework.parsers.MultiPartParser',
     ],
-    'EXCEPTION_HANDLER': 'student.utils.exception.exception_handler',
+    'EXCEPTION_HANDLER': 'utils.exception.exception_handler',
 }
